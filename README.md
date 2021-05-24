@@ -19,6 +19,7 @@ int main()
 }
 
 C
+、、、
 進階題2:讀入整數反敘列印
 #include <stdio.h>
 int main()
@@ -36,6 +37,7 @@ int main()
   printf("\n");
 }
 C
+、、、
 進階題3:A的B次方函數
 #include <stdio.h>
 int MYPOWER(int x,int y)
@@ -58,6 +60,7 @@ int main(void)
  return 0;
 }
 C
+、、、
 進階題4:漸增數列相加
 #include <stdio.h>
 int main()
@@ -74,6 +77,7 @@ int main()
 }
 
 C
+、、、
 基礎題1:找零錢
 #include <stdio.h>
 int main()
@@ -89,6 +93,7 @@ int main()
  printf("%d\n",n);
 }
 C
+、、、
 基礎題2:因數個數
 #include <stdio.h>
 int main()
@@ -105,6 +110,7 @@ int main()
 
 
 C
+、、、
 基礎題3:找倍數
 #include <stdio.h>
 int main()
@@ -119,6 +125,7 @@ int main()
 }
 
 C
+、、、
 基礎題4:整數轉換為等級
 #include <stdio.h>
 int main()
@@ -131,3 +138,4 @@ int main()
  else if(a>=60)printf("C\n");
  else if(a<60)printf("F\n");
 }
+、、、
