@@ -18,9 +18,9 @@ int main()
  printf("%d %d\n",m,n);
 }
 
-C
-、、、
-進階題2:讀入整數反敘列印
+
+、、、C
+進階題2：讀入整體反敘列印
 #include <stdio.h>
 int main()
 {
@@ -36,8 +36,8 @@ int main()
   }
   printf("\n");
 }
-C
-、、、
+
+、、、C
 進階題3:A的B次方函數
 #include <stdio.h>
 int MYPOWER(int x,int y)
@@ -59,8 +59,8 @@ int main(void)
  printf("[%d]",MYPOWER(a,b));
  return 0;
 }
-C
-、、、
+
+、、、C
 進階題4:漸增數列相加
 #include <stdio.h>
 int main()
@@ -76,8 +76,8 @@ int main()
  printf("%d\n",n);
 }
 
-C
-、、、
+
+、、、C
 基礎題1:找零錢
 #include <stdio.h>
 int main()
@@ -92,8 +92,8 @@ int main()
  }
  printf("%d\n",n);
 }
-C
-、、、
+
+、、、C
 基礎題2:因數個數
 #include <stdio.h>
 int main()
@@ -140,5 +140,5 @@ int main()
 }
 、、、
 第二週
-![123456](https://static.wikia.nocookie.net/worldpedias/images/0/0f/Patrick_Star.PNG/revision/latest?cb=20140620143247&path-prefix=zh)
+![123456](https://static.wikia.nocookie.net/worldpedias/images/0/0f/Patrick_Star.PNG/revision/latest?cb=20140620143247&path-prefix=zh) 
 
