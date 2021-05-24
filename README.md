@@ -109,8 +109,8 @@ int main()
 }
 
 
-C
-、、、
+
+、、、C
 基礎題3:找倍數
 #include <stdio.h>
 int main()
@@ -124,9 +124,9 @@ int main()
 
 }
 
-C
-、、、
-基礎題4:整數轉換為等級
+
+、、、C
+基礎題4：整體轉換為等級
 #include <stdio.h>
 int main()
 {
@@ -139,3 +139,5 @@ int main()
  else if(a<60)printf("F\n");
 }
 、、、
+第二週
+![123456](https://static.wikia.nocookie.net/worldpedias/images/0/0f/Patrick_Star.PNG/revision/latest?cb=20140620143247&path-prefix=zh)
