@@ -1,7 +1,7 @@
 # 2020ccev
 ### 我的第一份作業
 
-```C
+```c
 進階題1:分式化簡
 #include <stdio.h>
 int main()
@@ -17,9 +17,9 @@ int main()
 }
  printf("%d %d\n",m,n);
 }
+```
 
-
-、、、C
+```c
 進階題2：讀入整體反敘列印
 #include <stdio.h>
 int main()
@@ -36,8 +36,8 @@ int main()
   }
   printf("\n");
 }
-
-、、、C
+```
+```c
 進階題3:A的B次方函數
 #include <stdio.h>
 int MYPOWER(int x,int y)
@@ -59,8 +59,8 @@ int main(void)
  printf("[%d]",MYPOWER(a,b));
  return 0;
 }
-
-、、、C
+```
+```c
 進階題4:漸增數列相加
 #include <stdio.h>
 int main()
@@ -75,9 +75,9 @@ int main()
  }
  printf("%d\n",n);
 }
+```
 
-
-、、、C
+```c
 基礎題1:找零錢
 #include <stdio.h>
 int main()
@@ -92,8 +92,8 @@ int main()
  }
  printf("%d\n",n);
 }
-
-、、、C
+```
+```c
 基礎題2:因數個數
 #include <stdio.h>
 int main()
@@ -107,10 +107,10 @@ int main()
  } 
  printf("%d\n",k);
 }
+```
 
 
-
-、、、C
+```c
 基礎題3:找倍數
 #include <stdio.h>
 int main()
@@ -123,9 +123,9 @@ int main()
  printf("%d\n",k);
 
 }
+```
 
-
-、、、C
+```c
 基礎題4：整體轉換為等級
 #include <stdio.h>
 int main()
@@ -138,7 +138,8 @@ int main()
  else if(a>=60)printf("C\n");
  else if(a<60)printf("F\n");
 }
-、、、C
+```
+```c
 第二週
 ![123456](https://static.wikia.nocookie.net/worldpedias/images/0/0f/Patrick_Star.PNG/revision/latest?cb=20140620143247&path-prefix=zh) 
 ##回家作業的部分week2-1
@@ -153,7 +154,8 @@ int main()
     printf("n1:%d n2:%d n3:%d\n",n1,n2,n3);
     return 0;
 }
-、、、C
+```
+```c
 回家作業的部分week2-2
 #include<stdio.h>
 int main()
@@ -171,7 +173,8 @@ int main()
 
     return 0;
 }
-、、、C
+```
+```c
 回家作業的部分week2-3
 #include<stdio.h>
 int main()
@@ -193,7 +196,8 @@ int main()
 
     return 0;
 }
-、、、C
+```
+```c
 第三週
 
 week3-1
@@ -207,7 +211,8 @@ int main()
     p=p+2;
     *p=666;
 }
-、、、C
+```
+```c
 week3-2
 #include <stdio.h>
 int a[5]={0,10,20,30,40};
@@ -230,7 +235,8 @@ int main()
     *p=555;
             printfAll();
 }
-、、、C
+```
+```c
 week3-3
 #include <stdio.h>
 int a[10]={0,10,20,30,40,50,60,70,80,90};
@@ -254,7 +260,8 @@ int main()
             printfAll();
     return 0;
 }
-、、、C
+```
+```c
 week3-4
 #include <stdio.h>
 #include <stdlib.h>
@@ -267,7 +274,8 @@ int main()
 
     return 0;
 }
-、、、C
+```
+```c
 第四週
 
 week4-1
@@ -279,7 +287,8 @@ int main()
 {
 
 }
-、、、C
+```
+```c
 week4-2
 #include <stdio.h>
 struct DATA{
@@ -292,7 +301,8 @@ int main()
     point1.z=7;
     printf("%f %f %f",point1.x,point1.y,point1.z);
 }
-、、、C
+```
+```c
 week4-3
 #include <stdio.h>
 struct DATA{
@@ -309,7 +319,8 @@ int main()
     printf("%f %f %f\n",points[i].x,points[i].y,points[i].z);
     }
 }
-、、、C
+```
+```c
 week4-4
 #include <stdio.h>
 struct DATA{
@@ -327,7 +338,8 @@ int main()
     printf("%f %f %f\n",points[i].x,points[i].y,points[i].z);
     }
 }
-、、、C
+```
+```c
 week4-5
 #include <stdio.h>
 struct DATA{
@@ -347,7 +359,8 @@ int main()
     printf("%f %f %f\n",f.x,f.y,f.z);
 
 }
-、、、C
+```
+```c
 第五週
 
 week5-1
@@ -363,7 +376,8 @@ int main()
     }
     printf("\n");
     }
-    、、、C
+    ```
+```c
 week5-2
 #include <stdio.h>
 int main()
@@ -374,7 +388,8 @@ int main()
     printf("%s\n",line);
     printf("%s\n",line2);
     }
-    、、、C
+    ```
+```c
 week5-3
 #include <stdio.h>
 int main()
@@ -385,7 +400,8 @@ int main()
         printf("%s\n",line[i]);
     }
 }
-、、、C
+```
+```c
 week5-4
 #include <stdio.h>
 int a[3][3]={{1,2,3},{4,5,6},{7,8,9}};
@@ -399,7 +415,8 @@ int main()
     }
 
 }
-、、、C
+```
+```c
 week5-5
 #include <stdio.h>
 #include <string.h>
@@ -429,7 +446,8 @@ int main()
 		printf("%s\n",line[i]);
 	}
 }
-、、、C
+```
+```c
 第七週
 
 week7-1
@@ -458,7 +476,8 @@ int main()
 		printf("%s\n",a[i]);
 	}
 }
-、、、C
+```
+```c
 week7-2
 #include <stdio.h>
 #include <string.h>
@@ -486,7 +505,8 @@ int main()
         printf("%s\n", line[i]);
     }
 }
-、、、C
+```
+```c
 week7-3
 char *p1, *p2;
 char line[4][10]={"jkl", "ghi", "def", "abc"};
@@ -510,7 +530,8 @@ int main() {
   
   return 0;
 }
-、、、C
+```
+```c
 第八週
 
 week8-1
@@ -535,7 +556,8 @@ int main()
         }
     }
 }
-、、、C
+```
+```c
 week8-2
 #include <stdio.h>
 #include <stdlib.h>
@@ -563,8 +585,8 @@ int main()
         printf("%s\n",tree[i]);
         }
     }
-
-、、、C
+```
+```c
 week8-3
 #include <stdio.h>
 #include <string.h>
@@ -591,7 +613,8 @@ int main()
 		printf("%s\n",a[i]);
 	}
 }
-、、、C
+```
+```c
 week8-4
   
 #include <stdio.h>
@@ -616,8 +639,9 @@ int main()
         for(int i=0;i<n;i++){
             printf("%s\n",name[i]);
             }
-        }
-        、、、C
+     }
+```     
+```c	
 week8-5
 
 #include <stdio.h>
@@ -651,7 +675,9 @@ int main()
         }
         printf("%d\n",ans);
     }
-    、、、C
+```    
+    
+```c
     
 week 8-6
 #include <stdio.h>
@@ -693,7 +719,8 @@ int main()
 	printf("%.4f\n",100*ans/(float)N);
 	}
 }
-、、、C        
+```
+```c       
 第十週
 
 week10-1
@@ -711,7 +738,8 @@ int main()
 	}
 
 }
-、、、C
+```
+```c
 week10-2
 #include <stdio.h>
 char line[10000];
@@ -736,6 +764,8 @@ int main()
 	}
 
 }
+```
+```c
 week10-3
 #include <stdio.h>
 char line[10000];
@@ -760,7 +790,8 @@ int main()
 	}
 
 }
-、、、C
+```
+```c
 week10-4
 #include <stdio.h>
 char line[10000];
@@ -800,6 +831,8 @@ int main()
 	}
 
 }
+```
+```c
 week 10-5
 #include <stdio.h>
 #include <stdlib.h>
@@ -836,7 +869,8 @@ int main()
 	}
 
 }
-、、、C
+```
+```c
 week 10-5正解
 #include <stdio.h>
 #include <stdlib.h>
@@ -875,7 +909,8 @@ int main()
 	}
 
 }
-、、、C
+```
+```c
 第十一週
 
 week11-1
@@ -889,7 +924,8 @@ int main()
     d=c;
     printf("%c",d);
 }
-、、、C
+```
+```c
 week 11-2
 #include <stdio.h>
 typedef struct data{
@@ -904,7 +940,8 @@ int main()
 
     printf("%c %d\n",listA.c, listA.ans);
 }
-、、、C
+```
+```c
 week11-3
 #include <stdio.h>
 #include <stdlib.h>
@@ -924,7 +961,8 @@ int main()
         printf("%d ",a[i]);
     }
 }
-、、、C
+```
+```c
 week11-4
 #include <stdio.h>
 #include <stdlib.h>
@@ -963,7 +1001,8 @@ int main()
 	}
 	printf("%d\n",ans);
 }
-、、、C
+```
+```c
 week11-5
 #include <stdio.h>
 char line[2000];
@@ -976,7 +1015,8 @@ int main()
 		printf("blahblah");
 	}
 }
-、、、C
+```
+```c
 week11-6
 #include <stdio.h>
 char line[2000];
@@ -996,7 +1036,8 @@ int main()
 		}
 	}
 }
-、、、C
+```
+```c
 第十二週
 
 week12-1
@@ -1031,7 +1072,8 @@ int main()
 		}
 	}
 }
-、、、C
+```
+```c
 week12-2
 #include <stdio.h>
 char line[2000];
@@ -1072,7 +1114,8 @@ int main()
 		}
 	}
 }
-、、、C
+```
+```c
 week12-3
 
 #include <stdio.h>
@@ -1091,7 +1134,8 @@ int main()
         printf("Optimal train swapping takes %d swaps.\n",ans);
     }
 }
-、、、C
+```
+```c
 week12-4
 #include <stdio.h>
 int a[100];
@@ -1118,7 +1162,8 @@ int main()
         printf("Optimal train swapping takes %d swaps.\n",ans);
     }
 }
-、、、C
+```
+```c
 week12-5
 #include <stdio.h>
 int a[10000];
@@ -1138,7 +1183,8 @@ int main()
 		}	
 	}
 }
-、、、C
+```
+```c
 week12-6(not done)
 #include <stdio.h>
 int a[10000];
@@ -1170,7 +1216,8 @@ int main()
 		}	
 	}
 }
-、、、C
+```
+```c
 第十三週
 
 13-1
@@ -1181,11 +1228,13 @@ void draw(){
   if (mousePressed) background(51,146,203); 
   else background(51,203,128);
 }
-、、、C
+```
+```c
 13-2
 size(1024,400) 
  background(51,203,128);
- 、、、C
+ ```
+ ```c
 13-3
 void setup(){//只做一次設定
   size(1024,400);
@@ -1200,7 +1249,8 @@ int a=0;
 void mousePressed(){
   a++;
 }
-、、、C
+```
+```c
 13-4
 void setup(){//只做一次設定
   size(1024,400);
@@ -1215,7 +1265,8 @@ int a=0;
 void mousePressed(){
   a++;
 }
-、、、C
+```
+```c
 13-5
 //開新的
 void setup(){
@@ -1230,7 +1281,8 @@ void draw(){
   text(h+":"+m+":"+s,100,200);
    //數字 字串 數字 字串 數字
 }
-、、、C
+```
+```c
 13-6
 //開新的
 void setup(){
@@ -1251,7 +1303,8 @@ void draw(){
   text("剩下幾秒:"+ans,100,100);
    //數字 字串 數字 字串 數字
 }
-、、、C
+```
+```c
 13-7
 //開新的
 void setup(){
@@ -1274,4 +1327,5 @@ void draw(){
   text(ansH+":"+ansM+":"+ansS,100,300);
    //數字 字串 數字 字串 數字
 }
+```
 
